@@ -39,7 +39,7 @@ Members should be active in discussions and enjoy sharing and taking ideas and c
 
 All members should actively contribute to the creation of the project. Members should respond to scheduling inquiries as soon as possible, and meet deadlines set by team leaders with the intent of meeting deadlines set by the class.
 
-##5 Conflict Resolution:
+## 5 Conflict Resolution:
 Resolving members missing deadlines: If a subteam does not meet a deadline set by leaders AND they don’t communicate the fact that they will not be able to finish it before the deadline, then they receive a deadline-strike. 2 missed WORK deadlines without any notice results in a discussion with team leads about any scheduling issues can be resolved. 4 work missed deadlines results in the team leads reporting the member to the TA.
 
 Resolving Issues surrounding problematic team members: If leaders get consistent reports about a problematic team member and it appears that that team member is clearly disrespectful, or if there is a conflict between members, then those members will be called to a meeting to air their grievances, with the aim of finding a solution to them. If the issue continues or cannot be resolved, then said members will be reported to the TA.
