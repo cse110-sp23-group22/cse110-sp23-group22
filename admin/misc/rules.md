@@ -6,19 +6,18 @@ Professor Powell, CSE 110 SP2023
 Team Name: Byte Brokers
 
 ### Team Member Info:
-|Team Member Name | Team Member Email 	| Team Member Role |
-----
-
-|Eric Chen		      | erc001@ucsd.edu 		| Developer
-|Jiapei Chen		  | jic038@ucsd.edu		    | Developer
-|Jiaxin He		      | jih063@ucsd.edu 		| Developer
-|Jinshi He		      | jih064@ucsd.edu 		| Developer
-|Chris Kim		      | sek035@ucsd.edu 		| Planner
-|Arjun Kumar		  | ank010@ucsd.edu		    | Leader
-|Ryan Lee		      | rsl001@ucsd.edu		    | Leader
-|Nikan Ostovan  	  | nostovan@ucsd.edu		| Designer
-|Xin Shu		      | x1shu@ucsd.edu		    | Developer
-|Jennifer Tanurdjaja  | jtanurdjaja@ucsd.edu	| Developer
+| Team Member Name    | Team Member Email 	    | Team Member Role |
+| ----------------    | ----------------------- | ---------------- |
+| Eric Chen		      | erc001@ucsd.edu 		| Developer        |
+| Jiapei Chen		  | jic038@ucsd.edu		    | Developer        |
+| Jiaxin He		      | jih063@ucsd.edu 		| Developer        |
+| Jinshi He		      | jih064@ucsd.edu 		| Developer        |
+| Chris Kim		      | sek035@ucsd.edu 		| Planner          |
+| Arjun Kumar		  | ank010@ucsd.edu		    | Leader           |
+| Ryan Lee		      | rsl001@ucsd.edu		    | Leader           |
+| Nikan Ostovan  	  | nostovan@ucsd.edu		| Designer         |
+| Xin Shu		      | x1shu@ucsd.edu		    | Developer        |
+| Jennifer Tanurdjaja | jtanurdjaja@ucsd.edu	| Developer        |
 
 
 
