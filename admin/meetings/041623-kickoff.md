@@ -29,7 +29,7 @@
     - "Enforcement": use a strike system for certain issues
       - Missing deadlines twice = we talk and figure out if there are scheduling issues
       - Missing deadlines four times = report to TA/Powell
-      - 
+      - Intentional Hate speech is reported immediately; if it is clearly unintentional then member will receive a strike; doing so again will result in a report.
   - Missing scheduling will not be punished. We will simply assume that no response = not coming.
 - Group repo
   - A form is going to go out that will ask for Github usernames (maybe someone could make it now?). Ryan will invite.
