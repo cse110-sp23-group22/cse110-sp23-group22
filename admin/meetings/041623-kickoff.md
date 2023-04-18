@@ -1,6 +1,8 @@
 # Meeting 1
 ## Setting
 04-17-2023-17:00 PST, La Jolla, CA, Geisel Library 
+## Type
+General body meeting, kickoff
 ## Attendance
 - [x] Eric Chen
 - [x] Jiapei Chen
