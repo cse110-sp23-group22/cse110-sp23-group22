@@ -1,19 +1,13 @@
-<head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
-</head>
-
 <img align="right" src="/admin/branding/bytebrokerslogo_initials.svg" alt="BB initals logo" width="125" height="100">
 
-<h1>Byte Brokers</h1>  
+<h1><span style="font-family: 'Bebas Neue', cursive;">Byte Brokers</span></h1>  
 
 
 <h2><span style="font-family: 'Roboto Mono', monospace;">We are the Byte Brokers!</span></h2>   
 > Team 22, CSE110 SP23, UCSD
 
 ![BBLogo](/admin/branding/ByteBrokersLogo.svg)
-## Team Values
+<h2><span style="font-family: 'Roboto Mono', monospace;">Team Values</span><h2>
 
 We are a team focused on communication, trust and working together to create and complete cohesive projects. Through our work, we hope to not only better ourselves, but our teammates as well. We are committed to putting our all into our work. 
 
