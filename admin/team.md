@@ -37,7 +37,7 @@ We are focused not only on the end goal, but making the process to get there as 
 Here's the link to my [Personal Page!](https://ank010.github.io/GitHubPages110/)
 
 ### *Ryan Lee*, Sophomore, Computer Engineering
-![RyanProfileImage](/admin/teamPageImgs/...)
+![RyanProfileImage](/admin/TeamPagePhotos/RyanLeeHeadshot.jpg)
 
 **Hi, I'm Ryan!** I am a second-year Computer Engineering at UCSD. I have tutored students in Computer Science, particularly in computer systems and architecture. In my free time I like to cook and play indie games when I should really be doing LeetCode.
 
@@ -47,7 +47,7 @@ Here's the link to my [Personal Page!](https://ryan-s-lee.github.io/git-refamili
 ## ***Developers***
 
 ### *Jiaxin He*, Sophomore, Math-CS
-![JessicaProfileImage](/admin/teamPageImgs/...)
+![JessicaProfileImage](/admin/TeamPagePics/JiaxinHeHeadshot.jpg)
 
 **My name is Jiaxin**, also go with Jessica. I am a second-year Math-Cs student, also minoring in data science. Have 3-year experience in coding and have made two projects. My comfortable coding languages are Python and C++. During my free time, usually go climbing and badminton.
 
