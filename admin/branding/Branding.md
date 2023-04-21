@@ -26,3 +26,5 @@ This color scheme also got support, will be our alternate scheme if we decide th
 ## Powerpoint templates
 
 ## Markdown templates
+For any Markdown pages(that are purely markdown) use the following theme for the page: [Cayman](https://github.com/pages-themes/cayman)
+Instructions for adding theme to markdown: [Jekyll Theme](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll)
