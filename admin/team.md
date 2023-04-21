@@ -1,12 +1,13 @@
-<img align="right" src="/admin/branding/bytebrokerslogo_initials.svg" alt="BB initals logo" width="125" height="100">
+<img align="right" src="./branding/bytebrokerslogo_initials.svg" alt="BB initals logo" width="125" height="100">
 
-<h1><span style="font-family: 'Bebas Neue', cursive;">Byte Brokers</span></h1>  
+<h1><span style="font-family: 'Roboto Mono', cursive;">Byte Brokers</span></h1>  
 
 
 <h2><span style="font-family: 'Roboto Mono', monospace;">We are the Byte Brokers!</span></h2>   
 > Team 22, CSE110 SP23, UCSD
 
-![BBLogo](/admin/branding/ByteBrokersLogo.svg)
+![BBLogo](./branding/ByteBrokersLogo.svg)
+
 <h2><span style="font-family: 'Roboto Mono', monospace;">Team Values</span><h2>
 
 We are a team focused on communication, trust and working together to create and complete cohesive projects. Through our work, we hope to not only better ourselves, but our teammates as well. We are committed to putting our all into our work. 
@@ -25,7 +26,7 @@ As a team, members should be comfortable:
 We are focused not only on the end goal, but making the process to get there as smooth and thorough as possible. 
 
 
-## Meet Our Team!
+<h1><span style="font-family: 'Roboto Mono', cursive;">Meet Our Team!</span></h1> 
 <t>
 <img align="middle" src="./TeamPagePhotos/ByteBrokersMeme.png" alt="AK Photo" width="548" height="350">
 
