@@ -1,11 +1,12 @@
-![BBicon](/admin/branding/teamIcon) 
-# Byte Brokers  
-![BBLetterIcon](/admin/branding/teamIcon2)
+<img align="right" src="/admin/branding/bytebrokerslogo_initials.svg" alt="BB initals logo" width="125" height="100">
+
+<h1>Byte Brokers</h1>  
+
 
 ## We are the Byte Brokers!   
 > Team 22, CSE110 SP23, UCSD
 
-
+![BBLogo](/admin/branding/ByteBrokersLogo.svg)
 ## Team Values
 
 We are a team focused on communication, trust and working together to create and complete cohesive projects. Through our work, we hope to not only better ourselves, but our teammates as well. We are committed to putting our all into our work. 
