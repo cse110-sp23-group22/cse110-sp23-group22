@@ -30,14 +30,14 @@ We are focused not only on the end goal, but making the process to get there as 
 ## ***Leaders***
 
 ### *Arjun Kumar*, Sophomore, Computer Engineering
-![ArjunProfileImage](/admin/teamPageImgs/Amsterdam.jpg)
+<img align="middle" src="/admin/TeamPagePhotos/ArjunKumarHeadshot.jpg" alt="AK Photo" width="265" height="400">
 
 **Hi! I'm Arjun**, a second year Computer Engineering major and Poli Sci minor from Warren College. I have experience working on 5G NR systems and am interested in Communication Theory and Signal Processing. Outside of the classroom, I enjoy playing sports with my friends and family, fashion and designing tattoos.
 
 Here's the link to my [Personal Page!](https://ank010.github.io/GitHubPages110/)
 
 ### *Ryan Lee*, Sophomore, Computer Engineering
-![RyanProfileImage](/admin/TeamPagePhotos/RyanLeeHeadshot.jpg)
+<img align="middle" src="/admin/TeamPagePhotos/RyanLeeHeadshot.jpg" alt="RL Photo" width="265" height="400">
 
 **Hi, I'm Ryan!** I am a second-year Computer Engineering at UCSD. I have tutored students in Computer Science, particularly in computer systems and architecture. In my free time I like to cook and play indie games when I should really be doing LeetCode.
 
@@ -47,42 +47,42 @@ Here's the link to my [Personal Page!](https://ryan-s-lee.github.io/git-refamili
 ## ***Developers***
 
 ### *Jiaxin He*, Sophomore, Math-CS
-![JessicaProfileImage](/admin/TeamPagePics/JiaxinHeHeadshot.jpg)
-
+<img align="middle" src="/admin/TeamPagePics/JiaxinHeHeadshot.png" alt="JH Photo" width="300" height="400">
+                                                                                         
 **My name is Jiaxin**, also go with Jessica. I am a second-year Math-Cs student, also minoring in data science. Have 3-year experience in coding and have made two projects. My comfortable coding languages are Python and C++. During my free time, usually go climbing and badminton.
 
 Here's the link to my [Personal Page!](https://hjxhh030315.github.io/CSE110/)
 
 ### *Jiapei Chen*, Junior, Math-CS
-![PeterProfileImage](/admin/teamPageImgs/...)
+<img align="middle" src="/admin/TeamPagePhotos/JiapeiChenHeadshot.jpg" alt="BB initals logo" width="275" height="400">
 
 Hello, everyone. **I am Jiapei Chen**. I am a 3rd year Math & CS student. I am comfortable with Python, Java, C++, C#. I also did some pixel art as my hobby. I hope every thing will go on well.
 
 Here's the link to my [Personal Page!](https://chen-jiapei.github.io/Jiapei-Chen-CSE-110-Lab-1/)
 
 ### *Eric Chen*, Sophomore, Computer Science
-![EricProfileImage](/admin/teamPageImgs/...)
+<img align="middle" src="/admin/TeamPagePhotos/EricChenHeadshot.jpg" alt="BB initals logo" width="453" height="400">
 
 **Hi I'm Eric Chen**, my hobbies include video games, digital art, and game development. While I'm not exactly shy in terms of speaking, don't try ask me about any of my work as I'm shy about sharing the work I care about [I have high standards and I pretty much never meet them] (;-;). If anybody wants to talk about/play video games try to ask me about it, I play quite a lot more genres than most people.
 
 Here's the link to my [Personal Page!](https://hundred-foot-long-sweet-potato.github.io/Eric.github.io/)
 
 ### *Jinshi He*, Sophomore, Computer Engineering
-![BillProfileImage](/admin/teamPageImgs/...)
+<img align="middle" src="/admin/TeamPagePhotos/JinshiHeHeadshot.JPG" alt="BB initals logo" width="300" height="400">
 
 **My name is Jinshi He**, a second-year CE major at Marshall. I love programing, playing games, and watching livestream. Sometimes I even livestream on myself.
 
 Here's the link to my [Personal Page!](https://soukangc-school.github.io/CSE-110-Spring-2023-Jinshi-He-/)
 
 ### *Xin Shu*, Sophomore, Math-CS
-![VickyProfileImage](/admin/teamPageImgs/...)
+<img align="middle" src="/admin/TeamPagePhotos/XinShuHeadshot.JPG" alt="BB initals logo" width="598" height="400">
 
 **Hi, my name is Xin Shu**. I am a second-year student, majoring in math-cs in UCSD. I am a cat lover and enjoy spending time with them. I love outdoor exercise like skiing, surfing, diving, hiking and traveling.
 
 Here's the link to my [Personal Page!](https://vickyshu.github.io/lab1/)
 
 ### *Jennifer Tanurdjaja*, Sophomore, Computer Science
-![JenniferProfileImage](/admin/teamPageImgs/...)
+<img align="middle" src="/admin/TeamPagePhotos/JenniferTanurdjajaHeadshot.PNG" alt="BB initals logo" width="413" height="400">
 
 **Hi, I'm Jennifer** and second year computer science from Marshall College. Throughout my computer science experience, I am currently interested in learning about hyperdimensional computing and its role in machine learning. Outside of the classroom, I also like to spend time at the beach, play tennis, read books, and travel places.
 
@@ -91,7 +91,7 @@ Here's the link to my [Personal Page!](https://jtanurdjaja.github.io/CSE-110-Lab
 ## ***Designer***
 
 ### *Nikan Ostovan*, Senior, Cell Bio
-![NikanProfileImage](/admin/teamPageImgs/...)
+<img align="middle" src="/admin/TeamPagePhotos/NikanOstovanHeadshot.jpeg" alt="BB initals logo" width="300" height="400">
 
 Hi! I'm Nikan, my most passionate hobbies are powerlifting and random art projects that I pick up whenever I'm bored :)
 
@@ -100,7 +100,7 @@ Here's the link to my [Personal Page!](https://github.com/niknak1379/CSE-110-Pag
 ## ***Planner***
 
 ### *Chris Kim*, Junior, Computer Science
-![NikanProfileImage](/admin/teamPageImgs/...)
+<img align="middle" src="/admin/TeamPagePhotos/ChrisKimHeadshot.jpg" alt="BB initals logo" width="317" height="400">
 
 **Hi I'm Chris**.
 I like food.
