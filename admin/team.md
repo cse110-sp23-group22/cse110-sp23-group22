@@ -38,7 +38,9 @@ Here's the link to my [Personal Page!](https://ank010.github.io/GitHubPages110/)
 ### *Ryan Lee*, Sophomore, Computer Engineering
 ![RyanProfileImage](/admin/teamPageImgs/...)
 
-Here's the link to my [Personal Page!]()
+**Hi, I'm Ryan!** I am a second-year Computer Engineering at UCSD. I have tutored students in Computer Science, particularly in computer systems and architecture. In my free time I like to cook and play indie games when I should really be doing LeetCode.
+
+Here's the link to my [Personal Page!](https://ryan-s-lee.github.io/git-refamiliarization/)
 
 
 ## ***Developers***
