@@ -26,11 +26,14 @@ We are focused not only on the end goal, but making the process to get there as 
 
 
 ## Meet Our Team!
+<t>
+<img align="middle" src="/admin/TeamPagePhotos/ByteBrokersMeme.png" alt="AK Photo" width="548" height="350">
+
 
 ## ***Leaders***
 
 ### *Arjun Kumar*, Sophomore, Computer Engineering
-<img align="middle" src="/admin/TeamPagePhotos/ArjunKumarHeadshot.jpg" alt="AK Photo" width="265" height="400">
+<img align="middle" src="/admin/TeamPagePhotos/ArjunKumarHeadshot.jpg" alt="AK Photo" width="456" height="400">
 
 **Hi! I'm Arjun**, a second year Computer Engineering major and Poli Sci minor from Warren College. I have experience working on 5G NR systems and am interested in Communication Theory and Signal Processing. Outside of the classroom, I enjoy playing sports with my friends and family, fashion and designing tattoos.
 
@@ -47,7 +50,8 @@ Here's the link to my [Personal Page!](https://ryan-s-lee.github.io/git-refamili
 ## ***Developers***
 
 ### *Jiaxin He*, Sophomore, Math-CS
-<img align="middle" src="/admin/TeamPagePics/JiaxinHeHeadshot.png" alt="JH Photo" width="300" height="400">
+<img align="middle" src="/admin/TeamPagePhotos/JiaxinHeHeadshot.png" alt="JH Photo" width="398" height="400">
+
                                                                                          
 **My name is Jiaxin**, also go with Jessica. I am a second-year Math-Cs student, also minoring in data science. Have 3-year experience in coding and have made two projects. My comfortable coding languages are Python and C++. During my free time, usually go climbing and badminton.
 
@@ -93,7 +97,7 @@ Here's the link to my [Personal Page!](https://jtanurdjaja.github.io/CSE-110-Lab
 ### *Nikan Ostovan*, Senior, Cell Bio
 <img align="middle" src="/admin/TeamPagePhotos/NikanOstovanHeadshot.jpeg" alt="BB initals logo" width="300" height="400">
 
-Hi! I'm Nikan, my most passionate hobbies are powerlifting and random art projects that I pick up whenever I'm bored :)
+**Hi! I'm Nikan**, my most passionate hobbies are powerlifting and random art projects that I pick up whenever I'm bored :)
 
 Here's the link to my [Personal Page!](https://github.com/niknak1379/CSE-110-Pages-Project)
 
