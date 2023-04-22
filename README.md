@@ -1,4 +1,4 @@
-# cse110-sp23-group22
+# CSE110-SP23-Group22 - Byte Brokers
 - [Team page](./admin/team.md)
 - Team video: tbc
 
