@@ -1,6 +1,6 @@
 <img align="right" src="./branding/bytebrokerslogo_initials.svg" alt="BB initals logo" width="125" height="100">
 
-<h1><span style="font-family: 'Bebas Neue', cursive;">Byte Brokers</span><h1>
+# Byte Brokers
   
 <hr>
   
@@ -9,7 +9,7 @@
 
 ![BBLogo](./branding/ByteBrokersLogo.svg)
 
- <h2><span style="font-family: 'Roboto Mono', monospace;">Team Values</span></h2> 
+ ## Team Values 
 
 We are a team focused on communication, trust and working together to create and complete cohesive projects. Through our work, we hope to not only better ourselves, but our teammates as well. We are committed to putting our all into our work. 
 
