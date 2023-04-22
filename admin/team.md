@@ -3,7 +3,7 @@
 # Byte Brokers
   
 <hr>
-  
+
 <h2><span style="font-family: 'Roboto Mono', monospace;">We are the Byte Brokers!</span></h2>   
 > Team 22, CSE110 SP23, UCSD
 
