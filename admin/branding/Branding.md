@@ -24,5 +24,8 @@ Use this as the main color scheme for our pages and apps. Both markdown and powe
 This color scheme also got support, will be our alternate scheme if we decide that we want to move on from the first option. 
 
 ## Powerpoint templates
+[Google Slide](https://docs.google.com/presentation/d/1vyK1DSKt3ZnVlHGZJZOFdOcd-YKze2TQDBXaEkrCo0Q/edit#slide=id.p)
+
+<img align="middle" src="./Presentation%20Template%20(1).png" alt="presentation logo" width="480">
 
 ## Markdown templates
