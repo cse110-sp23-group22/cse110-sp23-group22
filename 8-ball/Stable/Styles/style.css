@@ -20,13 +20,19 @@
   }
   
   button {
-    padding: 0.5em 1em;
+    /*padding: 0.5em 1em;*/
     border: none;
     border-radius: 5px;
     background-color: #007bff;
     color: #fff;
     font-size: 1.2em;
     cursor: pointer;
+  }
+button:hover {
+  transform: scale(1.1);
+}
+  body{
+    background-color: #007bff;
   }
   
   #response {
@@ -44,6 +50,12 @@
 }
 
 /* Apply the shake animation to an element */
-button:hover {
+.shake {
   animation: shake 0.5s;
+}
+
+#ballImage{
+  height: 300px;
+  width: 300px;
+  border-radius:20px;
 }

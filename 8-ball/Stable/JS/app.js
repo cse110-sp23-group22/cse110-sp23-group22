@@ -26,17 +26,22 @@ let responses = [
   let response = document.getElementById("response");
   
   function shakeBall() {
-    let index = Math.floor(Math.random() * responses.length);
-    questionInput = document.getElementById("question").value;
-    let nameInput = document.getElementById("name").value;
-    console.log(questionInput);
-    console.log(nameInput);
-    if (questionInput == '' || nameInput == '') {
-      alert("No input");
-    }
-    else{
-      response.textContent = `${responses[index]} ${nameInput}`;
-    }
+      response.innerHTML='';
+      let index = Math.floor(Math.random() * responses.length);
+      questionInput = document.getElementById("question").value;
+      let nameInput = document.getElementById("name").value;
+      let button = document.getElementById("shake-button");
+      button.classList.add("shake");
+      setTimeout(() => {
+          button.classList.remove("shake");
+          if (questionInput == '' || nameInput == '') {
+              alert("No input");
+          } else {
+              response.textContent = `${responses[index]} ${nameInput}`;
+          }
+      }, 600);
+      console.log(questionInput);
+      console.log(nameInput);
   }
   
   button.addEventListener("click", shakeBall);
