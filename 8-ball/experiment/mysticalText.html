@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <BR><BR><BR><BR><BR><BR>
+      <BR><BR><BR><BR><BR><BR>
+        <BR><BR><BR><BR><BR><BR>
+          <BR><BR><BR><BR><BR><BR>
+    <title>Mystical Text Animation</title>
+    <style>
+      @keyframes mystical-text {
+        0% {
+          opacity: 0;
+          text-shadow: none;
+        }
+        50% {
+          opacity: 0.5;
+          text-shadow: 0 0 20px #ffffff, 0 0 30px #00bfff, 0 0 40px #00ff00, 0 0 50px #ff00ff, 0 0 60px #ffff00;
+        }
+        100% {
+          opacity: 1;
+          text-shadow: none;
+        }
+      }
+      
+      .mystical {
+        animation: mystical-text 5s ease-in-out;
+        font-family: 'Gothic', sans-serif;
+        font-size: 36px;
+        color: purple;
+        opacity: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mystical">Mystical 8-ball message here</div>
+  </body>
+</html>
