@@ -1,0 +1,24 @@
+{
+  "responses": [
+    "Es cierto",
+    "Sin duda",
+    "Puedes contar con ello",
+    "Sí, definitivamente",
+    "Es decididamente así",
+    "Según lo veo, sí",
+    "Muy probable",
+    "Sí",
+    "Las perspectivas son buenas",
+    "Todo apunta a que sí",
+    "Respuesta incierta, inténtalo de nuevo",
+    "Mejor no decirte ahora",
+    "Pregunta de nuevo más tarde",
+    "No puedo predecirlo ahora",
+    "Concéntrate y pregunta de nuevo",
+    "No cuentes con ello",
+    "Las perspectivas no son buenas",
+    "Mis fuentes dicen que no",
+    "Muy dudoso",
+    "Mi respuesta es no"
+  ]
+}

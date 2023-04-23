@@ -49,6 +49,28 @@ button:hover {
   100% { transform: translate(0, 0); }
 }
 
+@keyframes mystical-text {
+  0% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  50% {
+    opacity: 0.5;
+    text-shadow: 0 0 20px #ffffff, 0 0 30px #00bfff, 0 0 40px #00ff00, 0 0 50px #ff00ff, 0 0 60px #ffff00;
+  }
+  100% {
+    opacity: 1;
+    text-shadow: none;
+  }
+}
+
+.mystical {
+  animation: mystical-text 5s ease-in-out;
+  font-family: 'Gothic', sans-serif;
+  font-size: 36px;
+  color: purple;
+  /*opacity: 0;*/
+}
 /* Apply the shake animation to an element */
 .shake {
   animation: shake 0.5s;
