@@ -59,3 +59,8 @@ button:hover {
   width: 300px;
   border-radius:20px;
 }
+header{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
