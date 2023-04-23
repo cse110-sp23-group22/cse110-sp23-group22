@@ -1,0 +1,27 @@
+<!-- prompt: code for a web page with a space background -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Space Background</title>
+    <style>
+      body {
+        /* New, existing image. Found at https://unsplash.com/photos/asuyh-_ZX54 */
+        background-image: url('https://images.unsplash.com/photo-1505506874110-6a7a69069a08?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80');
+        /* Original generated image. The background image doesn't exist! */
+        /* background-image: url('https://images.unsplash.com/photo-1586183998422-1d62e0e28122'); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        /* Added from new prompt: can you rotate the background image 90 degrees? */
+        /* Doesn't work, likely because <body> is not beholden to the CSS box model. */
+        transform: rotate(90deg);
+      }
+      
+      /* add your other styles here */
+      
+    </style>
+  </head>
+  <body>
+    <!-- add your HTML content here -->
+  </body>
+</html>
