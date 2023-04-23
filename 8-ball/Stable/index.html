@@ -3,6 +3,8 @@
         <title>8-Ball App</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="Styles/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;1,400&display=swap" rel="stylesheet">
     </head>
     <body>
         <section class="container">
@@ -16,8 +18,11 @@
             </header>
 
             <h1 id="header">Ask the Magic 8-Ball</h1>
+            <section id="imageContainer">
+                <button id="shake-button"><img src="Assets/Screenshot%202023-04-22%20at%2012.00.11%20PM.png" alt="Magic 8 Ball picture" id="ballImage"></button>
+                <output id="response" class="mystical"></output>
+            </section>
 
-            <button id="shake-button"><img src="Assets/Screenshot%202023-04-22%20at%2012.00.11%20PM.png" alt="Magic 8 Ball picture" id="ballImage"></button>
             <hr>
 
 
@@ -25,7 +30,7 @@
             <input type="text" id="name" placeholder="Enter your name">
             <label id="qPrompt" for="question">Question:</label>
             <input type="text" id="question" placeholder="Enter your question...">
-        <output id="response" class="mystical"></output>
+
         </section>
     <script src="JS/app.js"></script>
     </body>
