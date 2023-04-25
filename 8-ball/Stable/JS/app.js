@@ -36,17 +36,20 @@ let selection = document.getElementById("langMenu");//language selection
           button.classList.remove("shake");
 
           //check for empty answers
+          let emptyAnswer = 0;
           if (questionInput == '' || nameInput == '') {
               alert("No input");
           } else {
               output.textContent = `${responses[index]} ${nameInput}`;
               output.classList.add("mystical");
+            
+              setTimeout(() => {
+
+                textToSpeach.play();
+              }, 2100);
           }
       }, 600);
-      setTimeout(() => {
-
-          textToSpeach.play();
-      }, 2100);
+      
   }
 
   //Function sets the language of the app based on user input
