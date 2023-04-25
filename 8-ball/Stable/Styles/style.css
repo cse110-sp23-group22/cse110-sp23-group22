@@ -4,8 +4,6 @@
 }
 
 
-
-
 .container {
     display: flex;
     flex-direction: column;
@@ -33,7 +31,7 @@
     border-radius: 5px;
     font-size: 1.2em;
   }
-
+/*Set the position of the header elements - logo and language menu*/
 header{
   position:absolute;
   top:0;
@@ -41,23 +39,29 @@ header{
   color:var(--cyan);
 }
 
+/*invert the BB logo so it's visible*/
 img.logo{
   filter: invert(100);
   
 }
 
-  button {
-    border: none;
-    border-radius: 20px;
-    padding:0px;
-    color: #fff;
-    font-size: 1.2em;
-    cursor: pointer;
-  }
+/*Set characteristics for the button that acts as the 8-ball
+main thing is the cursor changes to aid user experience*/
+button {
+  border: none;
+  border-radius: 20px;
+  padding:0px;
+  color: #fff;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+/*the 8-ball pops out when mousing over it*/
 button:hover {
   transform: scale(1.1);
 }
 
+/*Set the default background-colors and font for body elements*/
 body {
   background-color: #1c1c1c;
   background-repeat: no-repeat;
@@ -66,6 +70,7 @@ body {
   font-family: 'Fira Sans', sans-serif;
   color: var(--grey);
 }
+
 /* Create a CSS gradient to add a colorful effect to the background image */
 body::before {
 
@@ -78,12 +83,22 @@ body::before {
   background: linear-gradient(170deg, #0b013f 0%, rgba(0, 0, 0, 0) 100%);
   z-index: -1;
 }
+
+/*position the response such that it is in the white square on the 8-ball*/
 #response {
+    position: absolute;
+    top: 34%;
+    left: 49%;
+    
+    transform: translate(-50%, -50%);
     margin-top: 2em;
     font-size: 2em;
     font-weight: bold;
     text-align: center;
+    width: 25%;
+    
 }
+
 /* Define the shake animation */
 @keyframes shake {
   0% { transform: translate(0, 0); }
@@ -119,24 +134,25 @@ body::before {
 .shake {
   animation: shake 0.5s;
 }
-/*Set the size of the 8-ball*/
-#ballImage{
-  height: 400px;
-  width: 520px;
-  border-radius:20px;
-}
 
-output{
-  position: absolute;
-  top: 80px;
-  left: 150px;
-  right:150px;
-  z-index: 1;
-}
+/*Add position and display elements to imageContainer so we can position
+the response with respect to the container*/
 #imageContainer{
   position: relative;
   display: inline-block;
+  justify-content: center;
+  align-content: center;
 }
+
+/*Set the size of the 8-ball image*/
+#ballImage{
+  height: 450px;
+  width: 580px;
+  align-self: center;
+  border-radius:20px;
+}
+
+
 
 /*
   .stars-container {
