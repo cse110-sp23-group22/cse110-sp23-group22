@@ -5,33 +5,36 @@
 
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
   
-  h1 {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 3em;
-    margin-bottom: 1em;
-    color:var(--grey);
-  }
+/* Setting common font */
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3em;
+  margin-bottom: 1em;
+  color:var(--grey);
+}
 
-  p, a{
-    font-family: 'Bebas Neue', cursive;
-    color:var(--grey)
-  }
-  
-  input[type="text"] {
-    padding: 0.5em;
-    margin-right: 0.5em;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1.2em;
-  }
-/*Set the position of the header elements - logo and language menu*/
+p, a{
+  font-family: 'Bebas Neue', cursive;
+  color:var(--grey)
+}
+
+/* Structuring text boxes */
+input[type="text"] {
+  padding: 0.5em;
+  margin-right: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+
+/* Set the position of the header elements - logo and language menu */
 header{
   position:absolute;
   top:0;
@@ -39,14 +42,14 @@ header{
   color:var(--cyan);
 }
 
-/*invert the BB logo so it's visible*/
+/* invert the BB logo so it's visible */
 img.logo{
   filter: invert(100);
   
 }
 
-/*Set characteristics for the button that acts as the 8-ball
-main thing is the cursor changes to aid user experience*/
+/* Set characteristics for the button that acts as the 8-ball
+main thing is the cursor changes to aid user experience */
 button {
   border: none;
   border-radius: 20px;
@@ -56,12 +59,12 @@ button {
   cursor: pointer;
 }
 
-/*the 8-ball pops out when mousing over it*/
+/* 8-ball pops out when mousing over it */
 button:hover {
   transform: scale(1.1);
 }
 
-/*Set the default background-colors and font for body elements*/
+/* Set the default background-colors and font for body elements */
 body {
   background-color: #1c1c1c;
   background-repeat: no-repeat;
@@ -73,7 +76,6 @@ body {
 
 /* Create a CSS gradient to add a colorful effect to the background image */
 body::before {
-
   content: '';
   position: fixed;
   top: 0;
@@ -84,7 +86,7 @@ body::before {
   z-index: -1;
 }
 
-/*position the response such that it is in the white square on the 8-ball*/
+/* Position the response such that it is in the white square on the 8-ball */
 #response {
     position: absolute;
     top: 35%;
@@ -96,8 +98,6 @@ body::before {
     font-weight: bold;
     text-align: center;
     width: 25%;
-    
-    
 }
 
 /* Define the shake animation */
@@ -108,6 +108,7 @@ body::before {
   100% { transform: translate(0, 0); }
 }
 
+/* Animating answers to fade in after shaking */
 @keyframes mystical-text {
   0% {
     opacity: 0;
@@ -128,7 +129,6 @@ body::before {
   font-family: 'Gothic', sans-serif;
   font-size: 36px;
   color: purple;
-  /*opacity: 0;*/
 }
 
 /* Apply the shake animation to an element */
@@ -136,8 +136,8 @@ body::before {
   animation: shake 0.5s;
 }
 
-/*Add position and display elements to imageContainer so we can position
-the response with respect to the container*/
+/* Add position and display elements to imageContainer so we can position
+the response with respect to the container */
 #imageContainer{
   position: relative;
   display: inline-block;
@@ -145,7 +145,7 @@ the response with respect to the container*/
   align-content: center;
 }
 
-/*Set the size of the 8-ball image*/
+/* Set the size of the 8-ball image */
 #ballImage{
   height: 450px;
   width: 580px;
@@ -153,30 +153,19 @@ the response with respect to the container*/
   border-radius:20px;
 }
 
-
-
-/*
-  .stars-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-  }
-
- */
-  .star {
-    position: absolute;
-    top: -10px;
-    width: 2px;
-    height: 2px;
-    border-radius: 50%;
-    opacity: 0;
-    background-color: #FFF;
-
-animation: starAnimation 5s linear infinite;
+/* Adding stars to the background */
+.star {
+  position: absolute;
+  top: -10px;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  opacity: 0;
+  background-color: #FFF;
+  animation: starAnimation 5s linear infinite;
 }
+
+/* Animating background stars */
 @keyframes starAnimation {
   0% {
     opacity: 0;

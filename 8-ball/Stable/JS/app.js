@@ -52,15 +52,15 @@ let selection = document.getElementById("langMenu");//language selection
       
   }
 
-  //Function sets the language of the app based on user input
+//Function sets the language of the app based on user input
 async function langMenuChange () {
 
 
     let responsePath; //path to the json file of the language selected
-    let langLabel = document.getElementById("langLabel");//label for lang menu
-    let header = document.getElementById("header");//header element
-    let namePrompt = document.getElementById("namePrompt");//label for name input
-    let qPrompt = document.getElementById("qPrompt");//label for question input
+    let langLabel = document.getElementById("langLabel"); //label for lang menu
+    let header = document.getElementById("header"); //header element
+    let namePrompt = document.getElementById("namePrompt"); //label for name input
+    let qPrompt = document.getElementById("qPrompt"); //label for question input
 
     //switch statment to set the response and audio paths variables depending on the selected language
     //and the prompt names
