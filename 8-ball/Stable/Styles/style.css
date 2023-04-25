@@ -87,15 +87,16 @@ body::before {
 /*position the response such that it is in the white square on the 8-ball*/
 #response {
     position: absolute;
-    top: 34%;
+    top: 35%;
     left: 49%;
     
     transform: translate(-50%, -50%);
     margin-top: 2em;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
     text-align: center;
     width: 25%;
+    
     
 }
 
