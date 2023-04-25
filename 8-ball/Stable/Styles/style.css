@@ -10,14 +10,21 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    margin-top: 4%;
+    margin-bottom: 3%;
   }
   
   h1 {
     font-family: 'Bebas Neue', cursive;
     font-size: 3em;
-    margin-bottom: 1em;
+    margin-bottom: 0em;
     color:var(--grey);
   }
+
+h3{
+  font-family: 'Bebas Neue', cursive;
+  color:var(--grey);
+}
 
   p, a{
     font-family: 'Bebas Neue', cursive;
@@ -37,6 +44,7 @@ header{
   top:0;
   right: .5vw;
   color:var(--cyan);
+  
 }
 
 /*invert the BB logo so it's visible*/
@@ -51,7 +59,7 @@ button {
   border: none;
   border-radius: 20px;
   padding:0px;
-  color: #fff;
+  color: #0b013f;
   font-size: 1.2em;
   cursor: pointer;
 }
@@ -88,15 +96,14 @@ body::before {
 #response {
     position: absolute;
     top: 35%;
-    left: 49%;
-    
+    left: 48%;
     transform: translate(-50%, -50%);
     margin-top: 2em;
-    font-size: 1.5em;
+    font-size: 1.75vw;
     font-weight: bold;
     text-align: center;
     width: 25%;
-    
+        
     
 }
 
@@ -147,10 +154,11 @@ the response with respect to the container*/
 
 /*Set the size of the 8-ball image*/
 #ballImage{
-  height: 450px;
-  width: 580px;
+  
+  height: auto;
+  width: 43vw;
   align-self: center;
-  border-radius:20px;
+  border-radius: 15px;
 }
 
 

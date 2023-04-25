@@ -1,5 +1,5 @@
 var responses;  //response typed by js
-var audioPath;
+var audioPath;  //audio versio of responses
 
 
 let button = document.getElementById("shake-button");//button element
@@ -36,7 +36,7 @@ let selection = document.getElementById("langMenu");//language selection
           button.classList.remove("shake");
 
           //check for empty answers
-          let emptyAnswer = 0;
+          
           if (questionInput == '' || nameInput == '') {
               alert("No input");
           } else {
@@ -52,6 +52,8 @@ let selection = document.getElementById("langMenu");//language selection
       
   }
 
+  
+
   //Function sets the language of the app based on user input
 async function langMenuChange () {
 
@@ -59,6 +61,7 @@ async function langMenuChange () {
     let responsePath; //path to the json file of the language selected
     let langLabel = document.getElementById("langLabel");//label for lang menu
     let header = document.getElementById("header");//header element
+    let subheader = document.getElementById("subHeader");//subheader element
     let namePrompt = document.getElementById("namePrompt");//label for name input
     let qPrompt = document.getElementById("qPrompt");//label for question input
 
@@ -72,7 +75,9 @@ async function langMenuChange () {
             namePrompt.innerHTML="escribe su nombre";
             qPrompt.innerHTML="escriba su pregunta";
             header.innerHTML="Pregúntale al Magic 8-ball";
+            subheader.innerHTML="Haga clic para agitar";
             break;
+            /*
         case "english":
             audioPath='Assets/voices/en'
             responsePath = 'Assets/English.json';
@@ -81,6 +86,7 @@ async function langMenuChange () {
             qPrompt.innerHTML="Enter Your Question:";
             header.innerHTML="Ask the Magic 8-Ball";
             break;
+            */
         case "chinese":
             audioPath='Assets/voices/cn'
             responsePath = "Assets/Chinese.json";
@@ -96,6 +102,7 @@ async function langMenuChange () {
             namePrompt.innerHTML="Enter Your Name:";
             qPrompt.innerHTML="Enter Your Question:";
             header.innerHTML="Ask the Magic 8-Ball";
+            subheader.innerHTML="Click to Shake"
             break;
     }
 
