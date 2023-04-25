@@ -7,11 +7,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;1,400&display=swap" rel="stylesheet">
     </head>
     <body class="stars-container">
+        
         <section class="container">
+            <h1 id="header">Ask the Magic 8-Ball</h1>
             <header>
-                <img align="right" src="Assets/bytebrokerslogo_initials.svg" alt="ByteBroker's Logo" width="125" height="100">
-                <h1 id="header">Ask the Magic 8-Ball</h1>
-                <label for="langMenu" id="langLabel">Choose 8-Ball Language:</label>
+                <label align="left" for="langMenu" id="langLabel">Choose 8-Ball Language:</label>
+                <img class="logo" align="right" src="Assets/bytebrokerslogo_initials.svg" alt="BB initals logo" width="125" height="100">
                 <select id="langMenu" name="colors">
                     <option value="english">English</option>
                     <option value="chinese">Chinese/中文</option>
@@ -32,12 +33,22 @@
 
             <p>&nbsp</p>
 
-            <label id="namePrompt" for="name">Enter Your name:</label>
-            <input type="text" id="name" placeholder="Enter your name">
-            <label id="qPrompt" for="question">Enter Your Question:</label>
-            <input type="text" id="question" placeholder="Enter your question...">
+            <label id="namePrompt" for="name">Enter Your name:</label><br>
+            <input type="text" id="name" placeholder="Enter your name"><br>
+            <label id="qPrompt" for="question">Enter Your Question:</label><br>
+            <textarea type="text" id="question" placeholder="Enter your question..." rows="3" cols="35"></textarea>
 
         </section>
         <script src="JS/app.js"></script>
     </body>
+
+    <footer>
+        <p>Copyright: Byte Brokers - Team 22 CSE110 SP23, UCSD</p>
+        <nav>
+            <a href="https://github.com/cse110-sp23-group22/cse110-sp23-group22">Github</a>
+            <a href="https://cse110-sp23-group22.github.io/cse110-sp23-group22/">Landing Page</a>
+        </nav>
+        
+
+    </footer>
 </html>
