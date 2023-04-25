@@ -18,6 +18,12 @@
     font-family: 'Bebas Neue', cursive;
     font-size: 3em;
     margin-bottom: 1em;
+    color:var(--grey);
+  }
+
+  p, a{
+    font-family: 'Bebas Neue', cursive;
+    color:var(--grey)
   }
   
   input[type="text"] {
@@ -29,22 +35,17 @@
   }
 
 header{
-  position: absolute;
-
-  top: 0;
-  right: 0;
-
-
-  color:var(--cyan);
-}
-/*
-header img{
   position:absolute;
   top:0;
-  left:0;
+  right: .5vw;
+  color:var(--cyan);
 }
 
- */
+img.logo{
+  filter: invert(100);
+  
+}
+
   button {
     border: none;
     border-radius: 20px;
@@ -57,9 +58,6 @@ button:hover {
   transform: scale(1.1);
 }
 
-h1{
-  color:var(--grey);
-}
 body {
   background-color: #1c1c1c;
   background-repeat: no-repeat;
@@ -80,13 +78,13 @@ body::before {
   background: linear-gradient(170deg, #0b013f 0%, rgba(0, 0, 0, 0) 100%);
   z-index: -1;
 }
-  #response {
+#response {
     margin-top: 2em;
     font-size: 2em;
     font-weight: bold;
     text-align: center;
-  }
-  /* Define the shake animation */
+}
+/* Define the shake animation */
 @keyframes shake {
   0% { transform: translate(0, 0); }
   10%, 30%, 50%, 70%, 90% { transform: translate(-10px, 0); }
@@ -116,11 +114,12 @@ body::before {
   color: purple;
   /*opacity: 0;*/
 }
+
 /* Apply the shake animation to an element */
 .shake {
   animation: shake 0.5s;
 }
-
+/*Set the size of the 8-ball*/
 #ballImage{
   height: 400px;
   width: 520px;
