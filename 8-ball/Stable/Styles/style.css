@@ -27,9 +27,24 @@
     border-radius: 5px;
     font-size: 1.2em;
   }
-  header{
-    color:var(--cyan);
-  }
+
+header{
+  position: absolute;
+
+  top: 0;
+  right: 0;
+
+
+  color:var(--cyan);
+}
+/*
+header img{
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+ */
   button {
     border: none;
     border-radius: 20px;
@@ -42,7 +57,9 @@ button:hover {
   transform: scale(1.1);
 }
 
-
+h1{
+  color:var(--grey);
+}
 body {
   background-color: #1c1c1c;
   background-repeat: no-repeat;
@@ -109,11 +126,7 @@ body::before {
   width: 520px;
   border-radius:20px;
 }
-header{
-  position: absolute;
-  top: 0;
-  right: 0;
-}
+
 output{
   position: absolute;
   top: 80px;
@@ -126,7 +139,7 @@ output{
   display: inline-block;
 }
 
-
+/*
   .stars-container {
     position: absolute;
     top: 0;
@@ -135,6 +148,8 @@ output{
     height: 100%;
     overflow: hidden;
   }
+
+ */
   .star {
     position: absolute;
     top: -10px;
