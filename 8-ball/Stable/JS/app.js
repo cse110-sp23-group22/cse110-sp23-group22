@@ -1,4 +1,5 @@
 var responses;  //response typed by js
+var audioPath;
 
 
 let button = document.getElementById("shake-button");//button element
@@ -8,12 +9,18 @@ let selection = document.getElementById("langMenu");//language selection
 //collects user input and outputs the magic 8 ball answer
   async function shakeBall() {
       let audio = document.getElementById("myAudio");
+      let textToSpeach = document.getElementById("textSpeach");
       //reset the output tag
       output.innerHTML='';
       output.classList.remove("mystical");
 
       //get random number to use for the 8ball array
       let index = Math.floor(Math.random() * responses.length);
+
+      //handle audio tag src attribute and set to the corresponding index of the
+      //response array. Index+1, bc the audio files start from 1.wav
+      textToSpeach.src=`${audioPath}/${index+1}.wav`;
+      console.log(textToSpeach.src);
 
       //get the question and name input by user
       let questionInput = document.getElementById("question").value;
@@ -36,6 +43,10 @@ let selection = document.getElementById("langMenu");//language selection
               output.classList.add("mystical");
           }
       }, 600);
+      setTimeout(() => {
+
+          textToSpeach.play();
+      }, 2100);
   }
 
   //Function sets the language of the app based on user input
@@ -48,10 +59,11 @@ async function langMenuChange () {
     let namePrompt = document.getElementById("namePrompt");//label for name input
     let qPrompt = document.getElementById("qPrompt");//label for question input
 
-    //switch statment to set the responsePath variable depending on the selected language
+    //switch statment to set the response and audio paths variables depending on the selected language
     //and the prompt names
     switch (selection.value) {
         case "spanish":
+            audioPath='Assets/voices/sp'
             responsePath='Assets/Spanish.json';
             langLabel.innerHTML="Elige el idioma del Magic 8-ball";
             namePrompt.innerHTML="escribe su nombre";
@@ -59,6 +71,7 @@ async function langMenuChange () {
             header.innerHTML="Pregúntale al Magic 8-ball";
             break;
         case "english":
+            audioPath='Assets/voices/en'
             responsePath = 'Assets/English.json';
             langLabel.innerHTML="Choose 8-Ball Language:";
             namePrompt.innerHTML="Enter Your Name:";
@@ -66,6 +79,7 @@ async function langMenuChange () {
             header.innerHTML="Ask the Magic 8-Ball";
             break;
         case "chinese":
+            audioPath='Assets/voices/cn'
             responsePath = "Assets/Chinese.json";
             langLabel.innerHTML="请选择Magic 8-ball的语言";
             namePrompt.innerHTML="请输入你的名字";
@@ -73,6 +87,7 @@ async function langMenuChange () {
             header.innerHTML="向Magic 8-ball提问";
             break;
         default:
+            audioPath='Assets/voices/en'
             responsePath = 'Assets/English.json';
             langLabel.innerHTML="Choose 8-Ball Language:";
             namePrompt.innerHTML="Enter Your Name:";
@@ -99,4 +114,19 @@ langMenuChange();
   //event listeners for click and lang menu state change.
   button.addEventListener("click", shakeBall);
   selection.addEventListener("change", langMenuChange);
-  
+
+//get the body element
+const container = document.querySelector('.stars-container');
+
+//create a 100 stars in the background using div classes
+for (let i = 0; i <= 100; i++) {
+
+    //create the div elements and append to the body
+    const star = document.createElement('div');
+    star.classList.add('star');
+
+    //select the positions at random
+    star.style.left = `${Math.random() * 100}%`;
+    star.style.top = `${Math.random() * 100}%`;
+    container.appendChild(star);
+}

@@ -6,7 +6,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;1,400&display=swap" rel="stylesheet">
     </head>
-    <body>
+    <body class="stars-container">
         <section class="container">
             <header>
                 <label for="langMenu" id="langLabel">Choose 8-Ball Language:</label>
@@ -19,10 +19,13 @@
 
             <h1 id="header">Ask the Magic 8-Ball</h1>
             <section id="imageContainer">
-                <button id="shake-button"><img src="Assets/Screenshot%202023-04-22%20at%2012.00.11%20PM.png" alt="Magic 8 Ball picture" id="ballImage"></button>
+                <button id="shake-button"><img src="Assets/Magic8-Ball.jpg" alt="Magic 8 Ball picture" id="ballImage"></button>
                 <output id="response" class="mystical"></output>
                 <audio id="myAudio">
                     <source src="Assets/magic.mp3" type="audio/mp3">
+                </audio>
+                <audio id="textSpeach">
+                    <source src="Assets/voices/en/1.wav" type="audio/wav">
                 </audio>
             </section>
 
