@@ -1,55 +1,61 @@
 <html>
-    <head>
-        <title>8-Ball App</title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="Styles/style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;1,400&display=swap" rel="stylesheet">
-    </head>
-    <body class="stars-container">
-        
-        <section class="container">
-            <h1 id="header">Ask the Magic 8-Ball</h1>
 
-            <header>
-                <label align="left" for="langMenu" id="langLabel">Choose 8-Ball Language:</label>
-                <img class="logo" align="right" src="Assets/bytebrokerslogo_initials.svg" alt="BB initals logo" width="125" height="100">
-                <select id="langMenu" name="colors">
-                    <option value="english">English</option>
-                    <option value="chinese">Chinese/中文</option>
-                    <option value="spanish">Spanish/Español</option>
-                </select>
-            </header>
+<head>
+    <title>8-Ball App</title>
+    <meta charset="UTF-8">
+    <meta name="descirption" content="8-Ball Exploratory App">
+    <meta name="keywords" content="8-ball, Magic">
+    <meta name="author" content="Byte Brokers - Team 22, CSE110 SP23, UCSD">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
 
-            <section id="imageContainer">
-                <button id="shake-button">
-                    <h2 id="clickPrompt" class="prompter">Click to Shake</h2>
-                    <img src="Assets/Magic8-Ball.jpg" alt="Magic 8 Ball picture" id="ballImage">
-                </button>
-                <output id="response" class="mystical"></output>
-                <audio id="myAudio">
-                    <source src="Assets/magic.mp3" type="audio/mp3">
-                </audio>
-                <audio id="textSpeach">
-                    <source src="Assets/voices/en/1.wav" type="audio/wav">
-                </audio>
-            </section>
+<body class="stars-container">
 
-            <p>&nbsp</p>
+    <section class="container">
+        <h1 id="header">Ask the Magic 8-Ball</h1>
 
-            <label id="namePrompt" for="name">Enter Your name:</label><br>
-            <input type="text" id="name" placeholder="Enter your name"><br>
-            <label id="qPrompt" for="question">Enter Your Question:</label><br>
-            <input type="text" id="question" placeholder="Enter your question..." ><br>
+        <header>
+            <label align="left" for="langMenu" id="langLabel">Choose 8-Ball Language:</label>
+            <img class="logo" align="right" src="Assets/bytebrokerslogo_initials.svg" alt="BB initals logo" width="125"
+                height="100">
+            <select id="langMenu" name="colors">
+                <option value="english">English</option>
+                <option value="chinese">Chinese/中文</option>
+                <option value="spanish">Spanish/Español</option>
+            </select>
+        </header>
+
+        <section id="imageContainer">
+            <button id="shake-button">
+                <h2 id="clickPrompt" class="prompter">Click to Shake</h2>
+                <img src="Assets/Magic8-Ball.jpg" alt="Magic 8 Ball picture" id="ballImage">
+            </button>
+            <output id="response" class="mystical"></output>
+            <audio id="myAudio">
+                <source src="Assets/magic.mp3" type="audio/mp3">
+            </audio>
+            <audio id="textSpeach">
+                <source src="Assets/voices/en/1.wav" type="audio/wav">
+            </audio>
         </section>
 
-        <script src="JS/app.js"></script>
-        <footer>
-            <p>Copyright: Byte Brokers - Team 22 CSE110 SP23, UCSD</p>
-            <nav>
-                <a href="https://github.com/cse110-sp23-group22/cse110-sp23-group22">Github</a>
-                <a href="https://cse110-sp23-group22.github.io/cse110-sp23-group22/">Landing Page</a>
-            </nav>    
-        </footer>
-    </body>
+        <p>&nbsp</p>
+
+        <label id="namePrompt" for="name">Enter Your name:</label><br>
+        <input type="text" id="name" placeholder="Enter your name"><br>
+        <label id="qPrompt" for="question">Enter Your Question:</label><br>
+        <input type="text" id="question" placeholder="Enter your question..."><br>
+    </section>
+
+    <script src="JS/app.js"></script>
+    <footer>
+        <p>Copyright: Byte Brokers - Team 22 CSE110 SP23, UCSD</p>
+        <nav>
+            <a href="https://github.com/cse110-sp23-group22/cse110-sp23-group22">Github</a>
+            <a href="https://cse110-sp23-group22.github.io/cse110-sp23-group22/">Landing Page</a>
+        </nav>
+    </footer>
+</body>
+
 </html>
