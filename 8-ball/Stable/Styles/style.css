@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
 :root {
   --cyan: #66fcf1;
   --grey: #c5c6c7;
@@ -14,7 +16,8 @@
   
 /* Setting common font */
 h1 {
-  font-family: 'Bebas Neue', cursive;
+  /* font-family: 'Bebas Neue', cursive; */
+  font-family: 'Bruno Ace', cursive;
   font-size: 3em;
   margin-bottom: 1em;
   color:var(--grey);
@@ -86,8 +89,8 @@ body::before {
   z-index: -1;
 }
 
-/* Position the response such that it is in the white square on the 8-ball */
-#response {
+/* Position the click prompt and response to be in the white square on the 8-ball */
+#response, #clickPrompt {
     position: absolute;
     top: 35%;
     left: 49%;
@@ -100,12 +103,49 @@ body::before {
     width: 25%;
 }
 
+/* Define removal of the click to shake prompt */
+@keyframes clickToShakePrompt {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+    /* display: none; */
+    /* visibility: hidden; */
+    /* z-index: -10; */
+  }
+}
+
+/* Apply fade out to the click to shake prompt */
+.prompter {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 36px;
+  color: black;
+  /* animation: clickToShakePrompt 5s; */
+}
+
+.fader {
+  animation: clickToShakePrompt 1s;
+  animation-fill-mode: forwards;
+}
+
 /* Define the shake animation */
 @keyframes shake {
-  0% { transform: translate(0, 0); }
-  10%, 30%, 50%, 70%, 90% { transform: translate(-10px, 0); }
-  20%, 40%, 60%, 80% { transform: translate(10px, 0); }
-  100% { transform: translate(0, 0); }
+  0% { 
+    transform: translate(0, 0); 
+  }
+  10%, 30%, 50%, 70%, 90% { 
+    transform: translate(-10px, 0); 
+  }
+  20%, 40%, 60%, 80% { 
+    transform: translate(10px, 0); 
+  }
+  100% { 
+    transform: translate(0, 0); 
+  }
 }
 
 /* Animating answers to fade in after shaking */
@@ -124,9 +164,10 @@ body::before {
   }
 }
 
+/* Apply mystical behavior to responses */
 .mystical {
   animation: mystical-text 5s ease-in-out;
-  font-family: 'Gothic', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 36px;
   color: purple;
 }
@@ -160,6 +201,7 @@ the response with respect to the container */
   width: 2px;
   height: 2px;
   border-radius: 50%;
+  z-index: -10;
   opacity: 0;
   background-color: #FFF;
   animation: starAnimation 5s linear infinite;

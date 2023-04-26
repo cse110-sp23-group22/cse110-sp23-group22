@@ -10,10 +10,15 @@ let selection = document.getElementById("langMenu");//language selection
   async function shakeBall() {
       let audio = document.getElementById("myAudio");
       let textToSpeach = document.getElementById("textSpeach");
+      let userPrompt = document.getElementById("clickPrompt");
+
       //reset the output tag
       output.innerHTML='';
       output.classList.remove("mystical");
-
+      
+      //add css 8-ball "click to shake" prompt
+      userPrompt.classList.add("prompter");
+    
       //get random number to use for the 8ball array
       let index = Math.floor(Math.random() * responses.length);
 
@@ -34,12 +39,16 @@ let selection = document.getElementById("langMenu");//language selection
 
           //remove shake class for consecutive uses
           button.classList.remove("shake");
-
-          //check for empty answers
-          let emptyAnswer = 0;
-          if (questionInput == '' || nameInput == '') {
-              alert("No input");
-          } else {
+        //   userPrompt.classList.remove("prompter");
+        //   check for empty answers
+          if (nameInput.replace(/\s+/g, '') == ''){
+            alert("No name input");
+          }
+          else if (questionInput.replace(/\s+/g, '') == '') {
+              alert("No question input");
+          } 
+          else {
+                userPrompt.classList.add("fader");
               output.textContent = `${responses[index]} ${nameInput}`;
               output.classList.add("mystical");
             
@@ -49,7 +58,6 @@ let selection = document.getElementById("langMenu");//language selection
               }, 2100);
           }
       }, 600);
-      
   }
 
 //Function sets the language of the app based on user input
@@ -114,6 +122,10 @@ async function langMenuChange () {
 //initial loading of the json file
 langMenuChange();
 
+// const clickprompter = document.getElementById("clickPrompt");
+// clickprompter.addEventListener('click', () => {
+//     clickprompter.style.display = 'none';
+// });
   //event listeners for click and lang menu state change.
   button.addEventListener("click", shakeBall);
   selection.addEventListener("change", langMenuChange);
