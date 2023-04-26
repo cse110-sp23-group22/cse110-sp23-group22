@@ -119,14 +119,14 @@ body::before {
   }
 }
 
-/* Apply fade out to the click to shake prompt */
+/* Settings for prompt font */
 .prompter {
   font-family: 'Fira Sans', sans-serif;
   font-size: 36px;
   color: black;
-  /* animation: clickToShakePrompt 5s; */
 }
 
+/* Class for fading objects */
 .fader {
   animation: clickToShakePrompt 1s;
   animation-fill-mode: forwards;
