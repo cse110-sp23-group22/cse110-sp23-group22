@@ -48,14 +48,14 @@ let selection = document.getElementById("langMenu");//language selection
               alert("No question input");
           } 
           else {
-                userPrompt.classList.add("fader");
-              output.textContent = `${responses[index]} ${nameInput}`;
-              output.classList.add("mystical");
+            userPrompt.classList.add("fader");
+            output.textContent = `${responses[index]} ${nameInput}`;
+            output.classList.add("mystical");
             
-              setTimeout(() => {
+            setTimeout(() => {
 
-                textToSpeach.play();
-              }, 2100);
+              textToSpeach.play();
+            }, 2100);
           }
       }, 600);
   }
