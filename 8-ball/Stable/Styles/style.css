@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
 :root {
   --cyan: #66fcf1;
   --grey: #c5c6c7;
@@ -14,7 +16,8 @@
   
 /* Setting common font */
 h1 {
-  font-family: 'Bebas Neue', cursive;
+  /* font-family: 'Bebas Neue', cursive; */
+  font-family: 'Bruno Ace', cursive;
   font-size: 3em;
   margin-bottom: 1em;
   color:var(--grey);
@@ -109,7 +112,8 @@ body::before {
     opacity: 0.5;
   }
   100% {
-    display: none;
+    opacity: 0;
+    /* display: none; */
     /* visibility: hidden; */
     /* z-index: -10; */
   }
@@ -117,10 +121,15 @@ body::before {
 
 /* Apply fade out to the click to shake prompt */
 .prompter {
-  font-family: 'Gothic', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 36px;
   color: black;
-  animation: clickToShakePrompt 5s;
+  /* animation: clickToShakePrompt 5s; */
+}
+
+.fader {
+  animation: clickToShakePrompt 1s;
+  animation-fill-mode: forwards;
 }
 
 /* Define the shake animation */
@@ -158,7 +167,7 @@ body::before {
 /* Apply mystical behavior to responses */
 .mystical {
   animation: mystical-text 5s ease-in-out;
-  font-family: 'Gothic', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 36px;
   color: purple;
 }

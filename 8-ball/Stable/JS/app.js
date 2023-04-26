@@ -39,8 +39,8 @@ let selection = document.getElementById("langMenu");//language selection
 
           //remove shake class for consecutive uses
           button.classList.remove("shake");
-          userPrompt.classList.remove("prompter");
-          //check for empty answers
+        //   userPrompt.classList.remove("prompter");
+        //   check for empty answers
           if (nameInput.replace(/\s+/g, '') == ''){
             alert("No name input");
           }
@@ -48,6 +48,7 @@ let selection = document.getElementById("langMenu");//language selection
               alert("No question input");
           } 
           else {
+                userPrompt.classList.add("fader");
               output.textContent = `${responses[index]} ${nameInput}`;
               output.classList.add("mystical");
             
