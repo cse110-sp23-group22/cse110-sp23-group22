@@ -1,4 +1,7 @@
+/*import fonts from Google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root {
   --cyan: #66fcf1;
@@ -12,23 +15,23 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  margin-top: 4%;
+  margin-top: 5%;
   margin-bottom: 3%;
 }
-  
+
 /* Setting common font */
 h1 {
-  /* font-family: 'Bebas Neue', cursive; */
   font-family: 'Bruno Ace', cursive;
-  font-size: 5vw;
+  font-size: 4vw;
   margin-bottom: 1em;
-  color:var(--grey);
+  color: var(--grey);
 }
 
-
-p, a{
+/*Set the font and color for the p and a elements*/
+p,
+a {
   font-family: 'Bebas Neue', cursive;
-  color:var(--grey)
+  color: var(--grey)
 }
 
 /* Structuring text boxes */
@@ -41,17 +44,17 @@ input[type="text"] {
 }
 
 /* Set the position of the header elements - logo and language menu */
-header{
-  position:absolute;
-  top:0;
+header {
+  position: absolute;
+  top: 0;
   right: .5vw;
-  color:var(--cyan);
+  color: var(--cyan);
 }
 
 /* invert the BB logo so it's visible */
-img.logo{
+img.logo {
   filter: invert(100);
-  
+
 }
 
 /* Set characteristics for the button that acts as the 8-ball
@@ -59,7 +62,7 @@ main thing is the cursor changes to aid user experience */
 button {
   border: none;
   border-radius: 20px;
-  padding:0px;
+  padding: 0px;
   color: #fff;
   font-size: 1.2em;
   cursor: pointer;
@@ -93,17 +96,18 @@ body::before {
 }
 
 /* Position the click prompt and response to be in the white square on the 8-ball */
-#response, #clickPrompt {
-    position: absolute;
-    top: 35%;
-    left: 49%;
-    
-    transform: translate(-50%, -50%);
-    margin-top: 2em;
-    font-size: 1.75vw;
-    font-weight: bold;
-    text-align: center;
-    width: 25%;
+#response,
+#clickPrompt {
+  position: absolute;
+  top: 35%;
+  left: 49%;
+
+  transform: translate(-50%, -50%);
+  margin-top: 2em;
+  font-size: 1.75vw;
+  font-weight: bold;
+  text-align: center;
+  width: 25%;
 }
 
 /* Define removal of the click to shake prompt */
@@ -111,9 +115,11 @@ body::before {
   0% {
     opacity: 1;
   }
+
   50% {
     opacity: 0.5;
   }
+
   100% {
     opacity: 0;
     /* display: none; */
@@ -137,17 +143,27 @@ body::before {
 
 /* Define the shake animation */
 @keyframes shake {
-  0% { 
-    transform: translate(0, 0); 
+  0% {
+    transform: translate(0, 0);
   }
-  10%, 30%, 50%, 70%, 90% { 
-    transform: translate(-10px, 0); 
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translate(-10px, 0);
   }
-  20%, 40%, 60%, 80% { 
-    transform: translate(10px, 0); 
+
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translate(10px, 0);
   }
-  100% { 
-    transform: translate(0, 0); 
+
+  100% {
+    transform: translate(0, 0);
   }
 }
 
@@ -157,10 +173,12 @@ body::before {
     opacity: 0;
     text-shadow: none;
   }
+
   50% {
     opacity: 0.5;
     text-shadow: 0 0 20px #ffffff, 0 0 30px #00bfff, 0 0 40px #00ff00, 0 0 50px #ff00ff, 0 0 60px #ffff00;
   }
+
   100% {
     opacity: 1;
     text-shadow: none;
@@ -182,7 +200,7 @@ body::before {
 
 /* Add position and display elements to imageContainer so we can position
 the response with respect to the container */
-#imageContainer{
+#imageContainer {
   position: relative;
   display: inline-block;
   justify-content: center;
@@ -190,7 +208,7 @@ the response with respect to the container */
 }
 
 /* Set the size of the 8-ball image */
-#ballImage{
+#ballImage {
   height: auto;
   width: 43vw;
   align-self: center;
@@ -215,12 +233,15 @@ the response with respect to the container */
   0% {
     opacity: 0;
   }
+
   10% {
     opacity: 1;
   }
+
   90% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
   }
