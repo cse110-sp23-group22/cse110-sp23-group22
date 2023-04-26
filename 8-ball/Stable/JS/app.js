@@ -48,9 +48,11 @@ let selection = document.getElementById("langMenu");//language selection
               alert("No question input");
           } 
           else {
-            userPrompt.classList.add("fader");
-            output.textContent = `${responses[index]} ${nameInput}`;
-            output.classList.add("mystical");
+              // fade out
+                userPrompt.classList.add("fader");
+              // Output text (and make it prettier)
+              output.textContent = `${responses[index]} ${nameInput}`;
+              output.classList.add("mystical");
             
             setTimeout(() => {
 
