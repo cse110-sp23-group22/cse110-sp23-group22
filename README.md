@@ -3,6 +3,10 @@
 - [Team video](./admin/videos/teamintro.mp4)
 - [Site link](https://cse110-sp23-group22.github.io/cse110-sp23-group22/)
 
+# Fortune Telling App Links
+- [Main Repository](https://github.com/cse110-sp23-group22/FortuneTellingApp)
+- [Documentation](https://drive.google.com/drive/folders/1wCLCT2LugwIOOdDuPt53ShPZddFBGk8G?usp=share_link) Documentation can also be found in markdown format in the repository.
+
 
 # 8 Ball Mini Project Links
 - [8-Ball App](./8-ball/Stable/index.html)
