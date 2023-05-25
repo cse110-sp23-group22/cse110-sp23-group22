@@ -3,7 +3,7 @@ parent: CI-Pipeline-Decisions
 nav_order: 100
 title: Code Quality Pipeline
 status: proposed
-date: 2023-05-17
+date: 2023-5-17
 deciders: Chris Kim, Jessica He, Eric Chen
 informed: Ryan Lee, Arjun Kumar
 ---
